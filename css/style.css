@@ -1,0 +1,124 @@
+        body {
+            font-family:
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        a {
+            color: #00332a;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #2c8977;
+            text-decoration: none;
+        }
+        
+        a {
+            color:
+        }
+        
+        .fondo-img {
+            width: 100%;
+            height: 100vh;
+        }
+        
+        .div-form {
+            margin-top: 5%;
+            text-align: left;
+            max-width: 450px;
+            height: auto;
+        }
+        
+        .form-login {
+            padding: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .fondo-mobile {
+                background-image: url('../img/fondo-mobile.jpg');
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 100vh;
+            }
+            .desktop {
+                display: none;
+            }
+        }
+        
+        .bg-nuevo {
+            background: red;
+        }
+        
+        .centrado {
+            text-align: center;
+        }
+        /*Gestion*/
+        
+        .logo {
+            max-width: 120px;
+            height: auto;
+            margin: 0.5rem;
+            border-radius: 5px;
+            background-color: beige;
+            border: 2px solid rgba(202, 202, 202, 0.623);
+        }
+        
+        .nav-item:hover {
+            background-color: #383b3f;
+        }
+        
+        .nav-item:active {
+            background-color: #408e7e;
+            color: beige;
+        }
+        
+        .div-nuevo {
+            padding-right: 10px;
+            padding-bottom: 15px;
+        }
+        
+        .error {
+            color: red;
+            font-weight: 600;
+        }
+        
+        .form-control-dos {
+            display: block;
+            width: 100%;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 5px 5px 5px 5px;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+        
+        .form-control-dos:focus {
+            color: #212529;
+            background-color: #fff;
+            border-color: #86b7fe;
+            outline: 0;
+            box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+        }
+        
+        .perfil {
+            margin-right: 5rem;
+        }
+        
+        .div-total {
+            border: 1px solid rgb(183 196 197);
+            padding: 1.5rem;
+            max-height: 200px;
+        }
